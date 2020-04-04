@@ -135,7 +135,5 @@ public class Clock2 extends JPanel {
         g2.drawString(min + " min " +sec+" sec",x1,y1);
 
     }
-
-
-
+    
 }
