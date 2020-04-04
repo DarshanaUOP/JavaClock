@@ -60,13 +60,12 @@ public class CircularClock extends JPanel{
 
         g2.setColor(lineColor);
 
-            for (int i=0;i<=11;i++) {
-                arcMark.setAngleStart(-i * 30);
-                arcMark.setAngleExtent(1);
-                g2.draw(arcMark);
-                g2.fill(arcMark);
-
-            }
+        for (int i=0;i<=11;i++) {
+            arcMark.setAngleStart(-i * 30);
+            arcMark.setAngleExtent(1);
+            g2.draw(arcMark);
+            g2.fill(arcMark);
+        }
 
         arcSec.setAngleStart(0);
         arcMin.setAngleStart(0);
