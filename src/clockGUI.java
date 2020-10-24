@@ -2,8 +2,8 @@ import javax.swing.*;
 import java.text.SimpleDateFormat;
 import java.awt.*;
 import java.util.Date;
-import java.util.Scanner;
 
+import com.darshana.clocks.*;
 /**
  * Created by acer on 18-Dec-17.
  */
@@ -155,7 +155,7 @@ public class clockGUI extends JFrame {
         con.fill = GridBagConstraints.BOTH;
         panBack.add(circularClock,con);
 
-        Clock2 clock2= new Clock2();
+        CristalClock clock2= new CristalClock();
         clock2.setVisible(true);
         clock2.setBackground(backgroundColor);
         clock2.lineColor = Color.CYAN;
