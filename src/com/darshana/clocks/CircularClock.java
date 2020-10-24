@@ -17,6 +17,14 @@ public class CircularClock extends JPanel{
     int radius = 200;
     public Color lineColor = Color.GREEN;
 
+    /**
+     *
+     * @param H Hours
+     * @param M Minutes
+     * @param S Seconds
+     * @param DD Date
+     * @param MMM Month
+     */
     public void Update(int H,int M,int S,int DD,String MMM){
         hr = H;
         min = M;
