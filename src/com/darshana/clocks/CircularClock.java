@@ -19,6 +19,10 @@ public class CircularClock extends JPanel{
 
     /**
      *
+<<<<<<< Updated upstream
+=======
+     * @author Darshana
+>>>>>>> Stashed changes
      * @param H Hours
      * @param M Minutes
      * @param S Seconds
