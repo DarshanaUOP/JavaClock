@@ -1,3 +1,5 @@
+package com.darshana.clocks;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Arc2D;
@@ -7,12 +9,12 @@ import java.awt.geom.Rectangle2D;
 /**
  * Created by acer on 20-Dec-17.
  */
-public class Clock2 extends JPanel {
+public class CristalClock extends JPanel {
     int  hr,sec,min;
     boolean oneTimeKey=true;
     int radius = 200 , thickness = 15 ;
-    Color lineColor = Color.GREEN;
-    Color fontColor = Color.cyan;
+    public Color lineColor = Color.GREEN;
+    public Color fontColor = Color.cyan;
 
     public void Update(int H,int M,int S){
         hr = H;

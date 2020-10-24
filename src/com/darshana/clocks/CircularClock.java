@@ -1,3 +1,5 @@
+package com.darshana.clocks;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Arc2D;
@@ -13,7 +15,7 @@ public class CircularClock extends JPanel{
     String month;
     boolean oneTimeKey=true;
     int radius = 200;
-    Color lineColor = Color.GREEN;
+    public Color lineColor = Color.GREEN;
 
     public void Update(int H,int M,int S,int DD,String MMM){
         hr = H;
